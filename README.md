@@ -24,3 +24,6 @@ fazer o script iniciar com o Windows:
 ```bash
 python script.py --reg
 ```
+## Demonstração
+https://github.com/user07777/TodoList/assets/140452913/33c40efe-1d70-4326-bde5-ff1792cf88ca
+
