@@ -1,8 +1,8 @@
 # TodoList
 ## Um widget todo (feito com directx 9) para à área de trabalho<br>
-### Gerencie suas tarefas diárias diretamente da área de trabalho com meu programa,<br> que oferece uma visão simplificada e rápida das tarefas pendentes<br>
+Gerencie suas tarefas diárias diretamente da área de trabalho com meu programa,<br> que oferece uma visão simplificada e rápida das tarefas pendentes<br>
 # Manager
-### O auxiliar da janela principal é um script básico feito em python. <br> Cujo principal proposito é auxiliar na customização da janela principal por meio de E/S no arquivo data.json 
+O auxiliar da janela principal é um script básico feito em python. <br> Cujo principal proposito é auxiliar na customização da janela principal por meio de E/S no arquivo data.json 
 ### Um guia de como usar
 iniciar:
 ```bash
