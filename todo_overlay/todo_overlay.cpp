@@ -11,7 +11,6 @@ TextRenderer* txt =nullptr;
 Hk keyboard_hook;
 void DrawRect(LPDIRECT3DDEVICE9 pDevice, RECT rect, D3DCOLOR color)
 {
-    // Define the vertices for a rectangle
     struct Vertex
     {
         float x, y, z, rhw;
