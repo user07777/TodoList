@@ -81,8 +81,8 @@ void Render(int selected) {
 
     pdev->Clear(0, nullptr, D3DCLEAR_TARGET, D3DCOLOR_ARGB(0, 0, 0, 0), 0.0f, 0);
     pdev->BeginScene();
-    if (GetAsyncKeyState(VK_ESCAPE) & 0x8000)
-        exit(0);
+    //if (GetAsyncKeyState(VK_ESCAPE) & 0x8000)
+        //exit(0);
 
     RECT r = { 0, 0, width, height };
     RECT txt_r = { 0  , 0,525, 160 };
