@@ -71,7 +71,7 @@ class manager:
         for entry in data:
             for i, task in enumerate(entry["txt"]):
                 if task.startswith(f"{mark} {taskN}"):
-                    entry["txt"][i] = taskN
+                    entry["txt"][i] = task.replace("✓ ","")
 
         with open(self.file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
